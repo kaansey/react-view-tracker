@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { LiveEdit } from '../components';
 import theme from '../utils/theme';
-import { ViewTracker } from '../libs';
+import ViewTracker from '../libs';
 
 const Wrapper = styled.div`
   width: %100;

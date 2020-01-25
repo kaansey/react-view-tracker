@@ -1,2 +1,3 @@
 import 'intersection-observer';
-export { default as ViewTracker } from './ViewTracker/ViewTracker';
+import ViewTracker from './ViewTracker/ViewTracker';
+export default ViewTracker;

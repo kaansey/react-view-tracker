@@ -792,4 +792,4 @@ ViewTracker.defaultProps = {
 };
 var ViewTracker$1 = React.memo(ViewTracker);
 
-export { ViewTracker$1 as ViewTracker };
+export default ViewTracker$1;
