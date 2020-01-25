@@ -15,7 +15,6 @@ const ContentDiv = styled.div`
 `;
 
 const PageDiv = styled.div`
-  border-left: 1px solid #edf2f7;
   padding-left: 15px;
   width: 100%;
 `;
