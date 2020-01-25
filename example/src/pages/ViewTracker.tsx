@@ -46,6 +46,7 @@ render(
       onStartObserving={onStartObserving}
       onStopObserving={onStopObserving}
       once={false}
+      // it can be 0.5, 0.7 etc... or array of percentage [0.1, 0.5]
       visiblePercentage={1}
     >
       <Content/> 
