@@ -3,9 +3,9 @@ interface ViewTrackerProps {
     children: JSX.Element;
     onShow?(entry?: IntersectionObserverEntry): void;
     onHide?(entry?: IntersectionObserverEntry): void;
-    onStartObserving?(conatiner?: any): void;
-    onStopObserving?(conatiner?: any): void;
-    setRootContainer?(): any;
+    onStartObserving?(container?: any): void;
+    onStopObserving?(container?: any): void;
+    setRootContainer?(): Element;
     once?: boolean;
     visiblePercentage?: number | Array<number>;
     offset?: {
