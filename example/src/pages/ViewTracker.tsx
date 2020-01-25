@@ -39,7 +39,7 @@ const onHide = (entry) =>{
 
 render(
   <Wrapper>
-    <div style={{height: '900px'}}></div>
+    <div style={{height: '300px'}}></div>
     <ViewTracker 
       onShow={onShow}
       onHide={onHide}
