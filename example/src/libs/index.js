@@ -791,6 +791,5 @@ ViewTracker.defaultProps = {
     visiblePercentage: 1,
 };
 var ViewTracker$1 = React.memo(ViewTracker);
-//# sourceMappingURL=ViewTracker.js.map
 
 export { ViewTracker$1 as ViewTracker };
