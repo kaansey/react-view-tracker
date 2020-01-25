@@ -15,7 +15,6 @@ const ContentDiv = styled.div`
 `;
 
 const PageDiv = styled.div`
-  padding-left: 15px;
   width: 100%;
 `;
 

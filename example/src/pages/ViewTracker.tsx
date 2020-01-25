@@ -58,6 +58,7 @@ render(
 const Pie = () => {
   return (
     <>
+      <p>To be able to see the events, checkout developer console!</p>
       <LiveEdit noInline code={ViewTrackerDemo} scope={scope} theme={theme} />
     </>
   );
